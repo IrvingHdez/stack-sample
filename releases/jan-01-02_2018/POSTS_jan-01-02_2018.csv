@@ -600,26 +600,6 @@ console.log(typeof(o3));</code></pre>
 </div>
 </p>
 ","2560539","","","","","2018-01-01 00:07:22","","","","0","","",""
-"48046406","2","","16609554","2018-01-01 00:08:53","","0","","<h1>With <a href=""https://www.postgresql.org/docs/current/static/plperl.html"" rel=""nofollow noreferrer""><code>plperl</code></a></h1>
-
-<p>If you're looking for something somewhat performant,</p>
-
-<pre><code>CREATE LANGUAGE plperl;
-
-CREATE FUNCTION regexp_return_matches(text, text)
-RETURNS text[]
-AS $$
-  my ( $input, $pattern ) = @_;
-  $pattern = quotemeta($pattern);
-  return [$input =~ m/($pattern)/g];
-$$ LANGUAGE plperl;
-
-SELECT regexp_return_matches('aassdd', 'a');
- regexp_return_matches 
------------------------
- {a,a}
-(1 row)
-</code></pre>
 ","124486","","","","","2018-01-01 00:08:53","","","","0","","",""
 "48046407","2","","48046337","2018-01-01 00:09:15","","3","","<p>Using spread operator is good until you start working with deeply nested state and/or arrays(remember spread operator does a shallow copy only). </p>
 
