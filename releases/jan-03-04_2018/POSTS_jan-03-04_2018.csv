@@ -121,27 +121,6 @@ print_r($articles);
         /&gt;
 </code></pre>
 ","424129","","","","","2018-01-03 15:56:47","","","","2","","",""
-"48080805","1","48080836","","2018-01-03 15:56:48","","0","36","<p>I made a set of functions and none of them is working. Here's one of them, for example:</p>
-
-<pre><code>function squareArea(side) {
-  var sArea = side * side;
-  return sArea;
-}
-</code></pre>
-
-<p>And this is how I <code>require</code> the module: </p>
-
-<pre><code>var mfs = require(""m-p-formulas-js"");
-var test = mfs.squareArea(2);
-console.log(test)
-</code></pre>
-
-<p>It returns this error:</p>
-
-<pre><code>TypeError: mfs.squareArea is not a function
-</code></pre>
-
-<p>What should I do to solve this?</p>
 ","9164280","","5647260","","2018-01-03 16:03:26","2018-01-03 16:03:26","squareArea is not a function when requiring module","<javascript><node.js>","2","3","","",""
 "48080807","1","","","2018-01-03 15:57:03","","0","159","<p>I know that all Dot Net Core projects get marked with a package version tag that appears in the CSProj file, like this:</p>
 
