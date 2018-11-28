@@ -119,7 +119,7 @@ print_r($articles);
         Grid.Column=""1"" 
         Text=""{Binding ToolTip, RelativeSource={RelativeSource AncestorType={x:Type infiniteReservoir:PressureSource}}}""
         /&gt;
-</code></pre>
+</code></pre>"
 ","424129","","","","","2018-01-03 15:56:47","","","","2","","",""
 ","9164280","","5647260","","2018-01-03 16:03:26","2018-01-03 16:03:26","squareArea is not a function when requiring module","<javascript><node.js>","2","3","","",""
 "48080807","1","","","2018-01-03 15:57:03","","0","159","<p>I know that all Dot Net Core projects get marked with a package version tag that appears in the CSProj file, like this:</p>
@@ -134,7 +134,7 @@ print_r($articles);
 &lt;/PropertyGroup&gt;
 </code></pre>
 
-<p>Is there a way to get access to that Version number field at Runtime? Namely in the Startup routines found in Startup.cs?</p>
+<p>Is there a way to get access to that Version number field at Runtime? Namely in the Startup routines found in Startup.cs?</p>"
 ","578011","","","","","2018-01-03 16:45:32","How can I capture the Package Version of a Dot Net Core assembly in startup code?","<c#><.net-core>","1","1","","",""
 "48080808","1","","","2018-01-03 15:57:07","","0","50","<p>This question is for someone very good with react as well as understand filestack-js</p>
 
@@ -264,7 +264,7 @@ class ReactFilestack extends Component {
 }
 
 export default ReactFilestack;
-</code></pre>
+</code></pre>"
 ","2646226","","2646226","","2018-01-03 19:05:07","2018-02-13 17:30:17","Where the client dom got attached to the react dom for filestack-react?","<javascript><reactjs><dom><filestack>","1","10","","",""
 "48080809","1","48081508","","2018-01-03 15:57:11","","0","76","<pre><code>&lt;?php
 header($_SERVER[""SERVER_PROTOCOL""]."" 404 Not Found"");
@@ -283,7 +283,7 @@ header($_SERVER[""SERVER_PROTOCOL""]."" 404 Not Found"");
 
 <h2>reply to the first comment</h2>
 
-<p><a href=""https://i.stack.imgur.com/kgYFI.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/kgYFI.png"" alt=""reply to the first comment""></a></p>
+<p><a href=""https://i.stack.imgur.com/kgYFI.png"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/kgYFI.png"" alt=""reply to the first comment""></a></p>"
 ","6268192","","6268192","","2018-01-03 16:07:22","2018-01-03 16:38:29","header 404 not found - not work with\on\in Firefox 57.0.3 (64b)","<php><http><firefox><https><http-status-code-404>","1","5","","",""
 "48080811","2","","24495348","2018-01-03 15:57:23","","0","","<p>On Windows, I solved this problem by putting the Lib directory of my Python installation directly on the PYTHONPATH.  This is necessary even though, if you run Python directly in the same shell, it doesn't require this to find the encodings package:</p>
 
