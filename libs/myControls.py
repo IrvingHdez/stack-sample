@@ -37,7 +37,7 @@ class myControls:
         
         if cnt!=0 and btn.description=='Activate':
             threading.Timer(1, timer, [btn,lbl,q]).start()
-            q1.description='Submitted'
+            q.description='Submitted'
             btn.visibility='hidden'
             btn.description='--'
             btn.disbled=True    
