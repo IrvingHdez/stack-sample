@@ -17,7 +17,7 @@ class myControls:
             
         cnt =int(lbl.value)   
         on=btn.value 
-        desc=q1.description
+        desc=q.description
 
         if desc!='Submitted':
             if on==True:      
