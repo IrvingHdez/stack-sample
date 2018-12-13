@@ -105,7 +105,7 @@ class AttributeDescriptor:
         print ("_id = " + str(self._id))
         print ("name = " + str(self.name))
         print ("_type = " + str(self._type))
-        print ("valueDistribution = " + str(self.valueDistribution))
+        #print ("valueDistribution = " + str(self.valueDistribution))
         print ("nullValue = " + str(self.nullValue))
         print ("absentValue = " + str(self.absentValue))
         print ("minValue = " + str(self.minValue))
