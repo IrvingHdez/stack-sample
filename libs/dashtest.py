@@ -104,8 +104,8 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
         id='example-graph-2',
         figure={
             'data': [
-                {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'SF'},
-                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Montreal'},
+                {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'Saltillo'},
+                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Chihuahua'},
             ],
             'layout': {
                 'plot_bgcolor': colors['background'],
